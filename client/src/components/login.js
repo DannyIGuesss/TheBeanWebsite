@@ -10,7 +10,6 @@ const Login = (props) => {
     const navigate = useNavigate()
 
     const [errors, setErrors] = useState('')
-    console.log(errors);
 
     const {customerId, setCustomerId} = useContext(CustomerContext)
 
