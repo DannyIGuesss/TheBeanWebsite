@@ -1,0 +1,25 @@
+.main-body {
+    background-image: linear-gradient(#FFDA00, #F7921E, #EE3623);
+    height: 94vh;
+}
+
+.topping{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type='checkbox'] {
+    height: 30px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.topping label {
+    vertical-align: center;
+}
+
+form button {
+    margin: 0 auto;
+    margin-top: 2%;
+}

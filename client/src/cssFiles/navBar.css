@@ -1,0 +1,34 @@
+.parent-container {
+    height: 100%;
+}
+
+nav {
+    background-image: linear-gradient(#027F43, #B0D036);
+    height: 4rem;
+}
+
+nav h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.link {
+    margin: 10px;
+}
+
+nav button {
+    display: inline-block;
+}
+
+button:hover{
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-body {
+    background-image: linear-gradient(#FFDA00, #F7921E, #EE3623);
+    height: 94vh;
+}

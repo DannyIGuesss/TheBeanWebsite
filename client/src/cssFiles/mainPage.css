@@ -1,0 +1,76 @@
+.parent-container {
+    height: 100%;
+}
+
+nav {
+    background-image: linear-gradient(#027F43, #B0D036);
+    height: 4rem;
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+nav h1 {
+    font-size: 2rem;
+    color: white;
+
+}
+
+.link {
+    margin: 10px;
+}
+
+main {
+    background-image: linear-gradient(#FFDA00, #F7921E, #EE3623);
+    min-height: 91vh;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.flex-container {
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 33%;
+}
+
+
+.item h3, .item p {
+    text-align: center;
+    color: black;
+}
+
+.item img {
+    height: 8rem;
+    width: 13rem;
+    margin: 0 auto;
+    display: block;
+    box-shadow: -5px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.regOrSignIn {
+    text-align: center;
+    font-size: 2rem;
+    color: green;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+    background-image: linear-gradient(#027F43, #B0D036);
+    margin-left: 20px;
+}
+
+.custom {
+    margin: 0 auto;
+}
+
+button:hover{
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+button a {
+    text-decoration: none;
+    color: black;
+}

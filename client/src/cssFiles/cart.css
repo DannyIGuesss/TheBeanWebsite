@@ -1,0 +1,45 @@
+.whole-body{
+    display: flex;
+    background-image: linear-gradient(#FFDA00, #F7921E, #EE3623);
+    height: 91vh
+}
+
+.left-side {
+    width: 80%;
+}
+
+.right-side {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li{
+    margin-right: 20px;
+}
+
+.orderItem:first-child {
+    margin-top: 7%;
+}
+
+.toppings {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.total {
+    margin-bottom: 0;
+}
+
+.left-side button {
+    margin: 0 auto;
+}
+
