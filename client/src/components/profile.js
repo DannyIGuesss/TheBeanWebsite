@@ -22,6 +22,16 @@ const Profile = (props) => {
             })
     }
 
+    const deleteOrder = () => {
+        axios.delete('http://localhost:8000/api/deleteOrder')
+        .then((res) => {
+            console.log(res);
+        })
+        .catch((err) => {
+            console.log(err);
+        })
+    }
+
     //get all the order that the customer has made
     useEffect(() => {
         axios.get('http://localhost:8000/api/get', {withCredentials:true})
@@ -57,7 +67,7 @@ const Profile = (props) => {
                                     return(<span key={index}>{topping} </span>)
                                     })} 
                                 </h3>
-
+                                <button className='delete-btn' onClick={deleteOrder}>Delete</button>
                                 </div>
                             )
                         })

@@ -42,5 +42,14 @@ module.exports = {
         .catch(err => {
             res.json(err)
         })
-    }
+    },
+    deleteOrder: ((req,res) => {
+        Order.deleteOne({customer_id: idFromAuthenticate})
+            then((response) => {
+                res.json(response)
+            })
+            .catch((err) => {
+                res.status(500).json(err)
+            })
+    })
 }
